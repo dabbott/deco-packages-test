@@ -17,16 +17,3 @@
     })}
   </ScrollView>
 </View>
-###
-({
-  dependencies: {
-    'react-native': [
-      'ScrollView',
-      'View',
-      'Text'
-    ]
-  },
-  require: [
-    "import { ScrollView, Text, View, } from 'react-native'",
-  ],
-})

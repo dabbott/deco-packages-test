@@ -5,5 +5,4 @@
   style={{
     height: 200,
     width: 300,
-  }}>
-</MapView>
+  }} />

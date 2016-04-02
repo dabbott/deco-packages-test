@@ -19,17 +19,3 @@
       return <Text>{route.title}</Text>
     },
   }} />
-###
-({
-  dependencies: {
-    'react-native': [
-      'Navigator',
-      'View',
-      'Text',
-      'TouchableOpacity',
-    ]
-  },
-  require: [
-    "import { Navigator, View, Text, TouchableOpacity } from 'react-native'",
-  ],
-})

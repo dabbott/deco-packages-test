@@ -19,16 +19,3 @@
       </View>
     )
   }} />
-###
-({
-  dependencies: {
-    'react-native': [
-      'Navigator',
-      'View',
-      'Text',
-    ]
-  },
-  require: [
-    "import { Navigator, View, Text } from 'react-native'",
-  ],
-})
