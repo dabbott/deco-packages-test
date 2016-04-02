@@ -15,16 +15,3 @@
     </View>
   </Modal>
 </View>
-###
-({
-  dependencies: {
-    'react-native': [
-      'Modal',
-      'View',
-      'Text',
-    ]
-  },
-  require: [
-    "import { Modal, View, Text, } from 'react-native'",
-  ],
-})
