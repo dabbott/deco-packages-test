@@ -1,0 +1,379 @@
+{
+  "name": "deco-package-registry",
+  "version": "1.0.0",
+  "description": "Deco Packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dabbott/deco-packages-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dabbott/deco-packages-test/issues"
+  },
+  "homepage": "https://github.com/dabbott/deco-packages-test#readme",
+  "deco": {
+    "components": [
+      {
+        "name": "ActivityIndicatorIOS",
+        "inspector": {
+          "group": "ACTIVITY INDICATOR IOS"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/ActivityIndicatorIOS.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/ActivityIndicatorIOS.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "ActivityIndicatorIOS"
+          ]
+        }
+      },
+      {
+        "name": "DatePickerIOS",
+        "inspector": {
+          "group": "DATE PICKER IOS"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/DatePickerIOS.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/DatePickerIOS.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "DatePickerIOS"
+          ]
+        }
+      },
+      {
+        "name": "Image",
+        "inspector": {
+          "group": "IMAGE"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/Image.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/Image.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "Image"
+          ]
+        }
+      },
+      {
+        "name": "MapView",
+        "inspector": {
+          "group": "MAP VIEW"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/MapView.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/MapView.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "MapView"
+          ]
+        }
+      },
+      {
+        "name": "Modal",
+        "inspector": {
+          "group": "MODAL"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/Modal.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/Modal.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "Modal",
+            "View",
+            "Text"
+          ]
+        }
+      },
+      {
+        "name": "NavigationBar",
+        "inspector": {
+          "group": "NAVIGATION BAR"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/NavigationBar.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/NavigationBar.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "Navigator",
+            "View",
+            "Text",
+            "TouchableOpacity"
+          ]
+        }
+      },
+      {
+        "name": "Navigator",
+        "inspector": {
+          "group": "NAVIGATOR"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/Navigator.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/Navigator.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "Navigator",
+            "View",
+            "Text",
+            "TouchableOpacity"
+          ]
+        }
+      },
+      {
+        "name": "Picker",
+        "inspector": {
+          "group": "PICKER"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/Picker.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/Picker.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "Picker"
+          ]
+        }
+      },
+      {
+        "name": "ProgressViewIOS",
+        "inspector": {
+          "group": "PROGRESS VIEW IOS"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/ProgressViewIOS.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/ProgressViewIOS.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "ProgressViewIOS"
+          ]
+        }
+      },
+      {
+        "name": "RefreshControl",
+        "inspector": {
+          "group": "REFRESH CONTROL"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/RefreshControl.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/RefreshControl.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "RefreshControl"
+          ]
+        }
+      },
+      {
+        "name": "ScrollView",
+        "inspector": {
+          "group": "SCROLL VIEW"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/ScrollView.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/ScrollView.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "ScrollView",
+            "Text",
+            "View"
+          ]
+        }
+      },
+      {
+        "name": "SegmentedControlIOS",
+        "inspector": {
+          "group": "SEGMENTED CONTROL IOS"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/SegmentedControlIOS.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/SegmentedControlIOS.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "SegmentedControlIOS"
+          ]
+        }
+      },
+      {
+        "name": "Switch",
+        "inspector": {
+          "group": "SWITCH"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/Switch.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/Switch.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "Switch"
+          ]
+        }
+      },
+      {
+        "name": "Text",
+        "inspector": {
+          "group": "TEXT"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/Text.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/Text.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "Text"
+          ]
+        }
+      },
+      {
+        "name": "TextInput",
+        "inspector": {
+          "group": "TEXT INPUT"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/TextInput.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/TextInput.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "TextInput"
+          ]
+        }
+      },
+      {
+        "name": "View",
+        "inspector": {
+          "group": "VIEW"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/core/View.jsx",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/core/View.jsx.deco"
+        },
+        "imports": {
+          "react-native": [
+            "View"
+          ]
+        }
+      },
+      {
+        "name": "LocationSearchbox",
+        "inspector": {
+          "group": "LOCATION SEARCHBOX"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/ride-share/master/templates/LocationSearchbox.jsx",
+          "metadata": "https://rawgit.com/dabbott/ride-share/master/.deco/templates/LocationSearchbox.jsx.deco"
+        },
+        "dependencies": {
+          "deco-ride-share-demo": "*"
+        },
+        "imports": {
+          "deco-ride-share-demo": [
+            "LocationSearchbox"
+          ]
+        }
+      },
+      {
+        "name": "LocationPin",
+        "inspector": {
+          "group": "LOCATION PIN"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/ride-share/master/templates/LocationPin.jsx",
+          "metadata": "https://rawgit.com/dabbott/ride-share/master/.deco/templates/LocationPin.jsx.deco"
+        },
+        "dependencies": {
+          "deco-ride-share-demo": "*"
+        },
+        "imports": {
+          "deco-ride-share-demo": [
+            "LocationPin"
+          ]
+        }
+      },
+      {
+        "name": "ToggleButton",
+        "inspector": {
+          "group": "TOGGLE BUTTON"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/ride-share/master/templates/ToggleButton.jsx",
+          "metadata": "https://rawgit.com/dabbott/ride-share/master/.deco/templates/ToggleButton.jsx.deco"
+        },
+        "dependencies": {
+          "deco-ride-share-demo": "*"
+        },
+        "imports": {
+          "deco-ride-share-demo": [
+            "ToggleButton"
+          ]
+        }
+      },
+      {
+        "name": "FullscreenMap",
+        "inspector": {
+          "group": "FULLSCREEN MAP"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/ride-share/master/templates/FullscreenMap.jsx",
+          "metadata": "https://rawgit.com/dabbott/ride-share/master/.deco/templates/FullscreenMap.jsx.deco"
+        },
+        "dependencies": {
+          "deco-ride-share-demo": "*"
+        },
+        "imports": {
+          "deco-ride-share-demo": [
+            "FullscreenMap"
+          ]
+        }
+      },
+      {
+        "name": "Navbar",
+        "inspector": {
+          "group": "NAVBAR"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/ride-share/master/templates/Navbar.jsx",
+          "metadata": "https://rawgit.com/dabbott/ride-share/master/.deco/templates/Navbar.jsx.deco"
+        },
+        "dependencies": {
+          "deco-ride-share-demo": "*"
+        },
+        "imports": {
+          "deco-ride-share-demo": [
+            "Navbar"
+          ]
+        }
+      },
+      {
+        "name": "React Native Navbar",
+        "inspector": {
+          "group": "REACT NATIVE NAVBAR"
+        },
+        "template": {
+          "text": "https://rawgit.com/dabbott/deco-packages-test/master/templates/react-native-navbar.js",
+          "metadata": "https://rawgit.com/dabbott/deco-packages-test/master/.deco/templates/react-native-navbar.js.deco"
+        },
+        "dependencies": {
+          "react-native-navbar": "*"
+        },
+        "imports": {
+          "react-native-navbar": "NavigationBar"
+        }
+      }
+    ]
+  }
+}
