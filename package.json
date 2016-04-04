@@ -1,5 +1,6 @@
 {
   "name": "deco-package-registry",
+  "publisher": "deco",
   "version": "1.0.0",
   "description": "Deco Packages",
   "main": "index.js",
@@ -20,6 +21,10 @@
     "components": [
       {
         "name": "ActivityIndicatorIOS",
+        "publisher": "deco",
+        "tags": ["core", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "ACTIVITY INDICATOR IOS"
         },
@@ -35,6 +40,10 @@
       },
       {
         "name": "DatePickerIOS",
+        "publisher": "deco",
+        "tags": ["core", "input", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "DATE PICKER IOS"
         },
@@ -50,6 +59,10 @@
       },
       {
         "name": "Image",
+        "publisher": "deco",
+        "tags": ["core", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "IMAGE"
         },
@@ -65,6 +78,10 @@
       },
       {
         "name": "MapView",
+        "publisher": "deco",
+        "tags": ["core", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "MAP VIEW"
         },
@@ -80,6 +97,10 @@
       },
       {
         "name": "Modal",
+        "publisher": "deco",
+        "tags": ["core", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "MODAL"
         },
@@ -97,6 +118,10 @@
       },
       {
         "name": "NavigationBar",
+        "publisher": "deco",
+        "tags": ["core", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "NAVIGATION BAR"
         },
@@ -115,6 +140,10 @@
       },
       {
         "name": "Navigator",
+        "publisher": "deco",
+        "tags": ["core", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "NAVIGATOR"
         },
@@ -133,6 +162,10 @@
       },
       {
         "name": "Picker",
+        "publisher": "deco",
+        "tags": ["core", "input", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "PICKER"
         },
@@ -148,6 +181,10 @@
       },
       {
         "name": "ProgressViewIOS",
+        "publisher": "deco",
+        "tags": ["core", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "PROGRESS VIEW IOS"
         },
@@ -163,6 +200,10 @@
       },
       {
         "name": "RefreshControl",
+        "publisher": "deco",
+        "tags": ["core", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "REFRESH CONTROL"
         },
@@ -178,6 +219,10 @@
       },
       {
         "name": "ScrollView",
+        "publisher": "deco",
+        "tags": ["core", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "SCROLL VIEW"
         },
@@ -195,6 +240,10 @@
       },
       {
         "name": "SegmentedControlIOS",
+        "publisher": "deco",
+        "tags": ["core", "input", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "SEGMENTED CONTROL IOS"
         },
@@ -210,6 +259,10 @@
       },
       {
         "name": "Switch",
+        "publisher": "deco",
+        "tags": ["core", "input", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "SWITCH"
         },
@@ -225,6 +278,10 @@
       },
       {
         "name": "Text",
+        "publisher": "deco",
+        "tags": ["core", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "TEXT"
         },
@@ -240,6 +297,10 @@
       },
       {
         "name": "TextInput",
+        "publisher": "deco",
+        "tags": ["core", "input", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "TEXT INPUT"
         },
@@ -255,6 +316,10 @@
       },
       {
         "name": "View",
+        "publisher": "deco",
+        "tags": ["core", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "VIEW"
         },
@@ -270,6 +335,10 @@
       },
       {
         "name": "LocationSearchbox",
+        "publisher": "deco",
+        "tags": ["location", "search", "map", "uber", "deco", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "LOCATION SEARCHBOX"
         },
@@ -288,6 +357,10 @@
       },
       {
         "name": "LocationPin",
+        "publisher": "deco",
+        "tags": ["location pin", "map", "uber", "deco", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "LOCATION PIN"
         },
@@ -306,6 +379,10 @@
       },
       {
         "name": "ToggleButton",
+        "publisher": "deco",
+        "tags": ["toggle", "button", "uber", "deco", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "TOGGLE BUTTON"
         },
@@ -324,6 +401,10 @@
       },
       {
         "name": "FullscreenMap",
+        "publisher": "deco",
+        "tags": ["map", "uber", "deco", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "FULLSCREEN MAP"
         },
@@ -342,6 +423,10 @@
       },
       {
         "name": "Navbar",
+        "publisher": "deco",
+        "tags": ["navigator", "uber", "deco", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "NAVBAR"
         },
@@ -360,6 +445,10 @@
       },
       {
         "name": "React Native Navbar",
+        "publisher": "deco",
+        "tags": ["navigator", "ui", "react-native"],
+        "thumbnail": "https://placehold.it/100/100",
+        "description": "A React Native component",
         "inspector": {
           "group": "REACT NATIVE NAVBAR"
         },
