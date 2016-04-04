@@ -1,6 +1,5 @@
 {
   "name": "deco-package-registry",
-  "publisher": "deco",
   "version": "1.0.0",
   "description": "Deco Packages",
   "main": "index.js",
@@ -22,6 +21,7 @@
       {
         "name": "Activity Indicator IOS",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -41,6 +41,7 @@
       {
         "name": "Date Picker IOS",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "input", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -60,6 +61,7 @@
       {
         "name": "Image",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -79,6 +81,7 @@
       {
         "name": "Map View",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -98,6 +101,7 @@
       {
         "name": "Modal",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -119,6 +123,7 @@
       {
         "name": "Navigation Bar",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -141,6 +146,7 @@
       {
         "name": "Navigator",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -163,6 +169,7 @@
       {
         "name": "Picker",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "input", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -182,6 +189,7 @@
       {
         "name": "Progress View IOS",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -201,6 +209,7 @@
       {
         "name": "Refresh Control",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -220,6 +229,7 @@
       {
         "name": "Scroll View",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -241,6 +251,7 @@
       {
         "name": "Segmented Control IOS",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "input", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -260,6 +271,7 @@
       {
         "name": "Switch",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "input", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -279,6 +291,7 @@
       {
         "name": "Text",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -298,6 +311,7 @@
       {
         "name": "Text Input",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "input", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -317,6 +331,7 @@
       {
         "name": "View",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -336,6 +351,7 @@
       {
         "name": "Location Searchbox",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["location", "search", "map", "uber", "deco", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -358,6 +374,7 @@
       {
         "name": "Location Pin",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["location pin", "map", "uber", "deco", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -380,6 +397,7 @@
       {
         "name": "Toggle Button",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["toggle", "button", "uber", "deco", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -402,6 +420,7 @@
       {
         "name": "Fullscreen Map",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["map", "uber", "deco", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -424,6 +443,7 @@
       {
         "name": "Navbar",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["navigator", "uber", "deco", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
@@ -446,6 +466,7 @@
       {
         "name": "React Native Navbar",
         "publisher": "deco",
+        "schemaVersion": "0.0.1",
         "tags": ["navigator", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
         "description": "A React Native component",
