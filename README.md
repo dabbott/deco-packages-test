@@ -16,7 +16,17 @@ Please submit a pull request which adds your component(s) to the `package.json`,
 
 For now, we'll review every component to make sure it works as expected in Deco. We plan to expand on the schema and make the "registry" more scalable moving forward :)
 
-### Schema
+### FAQ
+
+##### What about native modules?
+
+* We plan to at least automatically run `rnpm link` after the `npm install` succeeds. Unfortunately, these components won't be able to hot reload in the simulator. Maybe there's more we can do here to make inserting native modules just as awesome as inserting pure-JS components.
+
+##### What about components that aren't JSX / React Native?
+
+* We plan to support other kinds of templates and frameworks. The format and IDE are agnostic to the kind of data and dependencies, but to keep it simple, we're limiting components to React-Native-compatible JSX for now.
+
+### Component Schema
 
 ```javascript
 {
@@ -115,8 +125,3 @@ For now, we'll review every component to make sure it works as expected in Deco.
 }
 ```
 
-### FAQ
-
-##### What about components that aren't JSX / React Native?
-
-* We plan to support other kinds of templates and frameworks. The format and IDE are agnostic to the kind of data and dependencies, but to keep it simple, we're limiting components to React-Native-compatible JSX for now.
