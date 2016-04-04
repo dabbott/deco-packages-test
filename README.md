@@ -1,6 +1,12 @@
 # Deco Components
 
+### What are Deco Components?
+
 Deco Components are templates and dependencies that can be downloaded and inserted into your project through the Deco IDE.
+
+Currently, templates are snippets of JSX with associated metadata. This metadata is used to identify important properties and build up the Deco UI for quickly tweaking the component.
+
+Metadata files should not be created manually - they are created automatically in Deco as you add properties to the property panel through <kbd>⌘</kbd> + click.
 
 ### Contributing Components
 
@@ -58,25 +64,45 @@ For now, we'll review every component to make sure it works as expected in Deco.
     "react-native": "React",
 
     // (String|String[]|Object)
-    // => import { ActivityIndicatorIOS } from "react-native"
-    "react-native": [
+    // => import { ActivityIndicatorIOS } from "react-native-2"
+    "react-native-2": [
+
+      // (String) Member to import
       "ActivityIndicatorIOS"
+
     ],
 
     // (String|String[]|Object)
-    // => import React, * as R, { View, Text as T } from "react-native"
-    "react-native": {
+    // => import React, * as R, { View, Text as T } from "react-native-3"
+    "react-native-3": {
+
+      // (String) Default import name
       default: 'React',
+
+      // (Boolean) Should include *
       star: true,
+
+      // (String) Alias for *
       alias: 'R',
+
+      // ((String|Object)[])
       members: [
+
+        // (String) Member to import
         'View',
+
         {
+          // (String) Member to import
           name: 'Text',
+
+          // (String) Alias for imported member
           alias: 'T'
         }
+
       ]
+
     }
+
   },
 
   // (Object) Dependencies to install
@@ -84,6 +110,7 @@ For now, we'll review every component to make sure it works as expected in Deco.
 
     // (String) Will run `npm install react-native --save`
     "react-native": "*"
+
   },
 }
 ```
