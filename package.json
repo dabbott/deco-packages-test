@@ -20,7 +20,7 @@
   "deco": {
     "components": [
       {
-        "name": "ActivityIndicatorIOS",
+        "name": "Activity Indicator IOS",
         "publisher": "deco",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
@@ -39,7 +39,7 @@
         }
       },
       {
-        "name": "DatePickerIOS",
+        "name": "Date Picker IOS",
         "publisher": "deco",
         "tags": ["core", "input", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
@@ -77,7 +77,7 @@
         }
       },
       {
-        "name": "MapView",
+        "name": "Map View",
         "publisher": "deco",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
@@ -117,7 +117,7 @@
         }
       },
       {
-        "name": "NavigationBar",
+        "name": "Navigation Bar",
         "publisher": "deco",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
@@ -180,7 +180,7 @@
         }
       },
       {
-        "name": "ProgressViewIOS",
+        "name": "Progress View IOS",
         "publisher": "deco",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
@@ -199,7 +199,7 @@
         }
       },
       {
-        "name": "RefreshControl",
+        "name": "Refresh Control",
         "publisher": "deco",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
@@ -218,7 +218,7 @@
         }
       },
       {
-        "name": "ScrollView",
+        "name": "Scroll View",
         "publisher": "deco",
         "tags": ["core", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
@@ -239,7 +239,7 @@
         }
       },
       {
-        "name": "SegmentedControlIOS",
+        "name": "Segmented Control IOS",
         "publisher": "deco",
         "tags": ["core", "input", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
@@ -296,7 +296,7 @@
         }
       },
       {
-        "name": "TextInput",
+        "name": "Text Input",
         "publisher": "deco",
         "tags": ["core", "input", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
@@ -334,7 +334,7 @@
         }
       },
       {
-        "name": "LocationSearchbox",
+        "name": "Location Searchbox",
         "publisher": "deco",
         "tags": ["location", "search", "map", "uber", "deco", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
@@ -356,7 +356,7 @@
         }
       },
       {
-        "name": "LocationPin",
+        "name": "Location Pin",
         "publisher": "deco",
         "tags": ["location pin", "map", "uber", "deco", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
@@ -378,7 +378,7 @@
         }
       },
       {
-        "name": "ToggleButton",
+        "name": "Toggle Button",
         "publisher": "deco",
         "tags": ["toggle", "button", "uber", "deco", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
@@ -400,7 +400,7 @@
         }
       },
       {
-        "name": "FullscreenMap",
+        "name": "Fullscreen Map",
         "publisher": "deco",
         "tags": ["map", "uber", "deco", "ui", "react-native"],
         "thumbnail": "https://placehold.it/100/100",
