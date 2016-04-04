@@ -12,11 +12,11 @@ Metadata files should not be created manually - they are created automatically i
 
 Want to add components to Deco?
 
-Please submit a pull request which adds your component(s) to the `package.json`, follow the format as described below.
+Please submit a pull request which adds your component(s) to the `package.json`, following the schema described below.
 
-For now, we'll review every component to make sure it works as expected in Deco. We plan to expand on the format and make the "registry" more scalable moving forward :)
+For now, we'll review every component to make sure it works as expected in Deco. We plan to expand on the schema and make the "registry" more scalable moving forward :)
 
-### Format
+### Schema
 
 ```javascript
 {
@@ -115,3 +115,8 @@ For now, we'll review every component to make sure it works as expected in Deco.
 }
 ```
 
+### FAQ
+
+##### What about components that aren't JSX / React Native?
+
+* We plan to support other kinds of templates and frameworks. The format and IDE are agnostic to the kind of data and dependencies, but to keep it simple, we're limiting components to React-Native-compatible JSX for now.
